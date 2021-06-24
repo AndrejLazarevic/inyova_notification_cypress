@@ -1,0 +1,19 @@
+{
+  "author": "Andrej Lazarevic",
+  "description": "Automating the notifications feature",
+  "devDependencies": {
+    "cypress": "^7.5.0"
+  },
+  "keywords": [
+    "Cypress",
+    "Inyova",
+    "Notifications"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "Inyova Notifications",
+  "scripts": {
+    "test": "test"
+  },
+  "version": "1.0.0"
+}
