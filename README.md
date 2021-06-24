@@ -1,7 +1,5 @@
 # Inyova Notification Center automation in Cypress 
 
-Frontend UI testing was done in Cypress.
-
 The base url in cypress.json is set to http://localhost:4200/ so that project from [Notification center](https://github.com/imoutaharik/angular-notification-center#notifications-center) can be
 tested once run on a dev server.
 
