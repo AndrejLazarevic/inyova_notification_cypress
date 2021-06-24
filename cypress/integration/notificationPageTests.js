@@ -117,7 +117,7 @@ describe('Check if homepage notification is always showing most recent unopened 
     })    
     it('Open one unread notificationa and go back to homepage to check if most recent changed', () => {
         cy.get(selectors.notifPagePanelHeader).then(($panel) => {
-            if ($panel.hasClass('emphasjized')) {
+            if ($panel.hasClass('emphasized')) {
                 cy.get(selectors.notifPagePanelHeaderNotRead).first().as('panel').click()
                 if ($panel.hasClass('emphasized')) {
                     cy.get(selectors.notifPagePanelHeaderNotRead).first().find(selectors.notifPagePanelHeaderSummary).then((summary) => {
