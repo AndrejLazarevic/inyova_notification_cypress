@@ -9,5 +9,3 @@ All test files are located in cypress/integration folder. There is one file for 
 in selectors.js under cypress/support folder and imported in test files for use. 
 
 Under cypress/videos you can find video records of all tests run.
-
-API testing was done in Postman. You can find exported collection and environment under postman folder. Simply import them in Postman application.
